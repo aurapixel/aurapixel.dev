@@ -30,42 +30,6 @@ description: "Explore AuraPixel's suite of innovative SaaS tools, extensions, an
           <a href="{{ site.baseurl }}/products/prompt-book" class="btn btn-primary">Learn More</a>
         </div>
       </div>
-      
-      <div class="product-showcase-card coming-soon">
-        <div class="product-image">
-          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" style="margin: 2rem auto;"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
-        </div>
-        <div class="product-content">
-          <div class="coming-soon-badge">Coming Soon</div>
-          <h2>TaskFlow</h2>
-          <p class="product-tagline">Streamlined Project Management</p>
-          <p>An intuitive task tracking and workflow optimization tool designed to help teams collaborate efficiently and deliver projects on time.</p>
-          <div class="product-features">
-            <span class="feature-tag">Web App</span>
-            <span class="feature-tag">Project Management</span>
-            <span class="feature-tag">Collaboration</span>
-          </div>
-          <a href="#" class="btn btn-outline disabled">Stay Tuned</a>
-        </div>
-      </div>
-      
-      <div class="product-showcase-card coming-soon">
-        <div class="product-image">
-          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" style="margin: 2rem auto;"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
-        </div>
-        <div class="product-content">
-          <div class="coming-soon-badge">Coming Soon</div>
-          <h2>PocketSync</h2>
-          <p class="product-tagline">Seamless File Synchronization</p>
-          <p>Keep your files and notes synchronized across all your devices with our secure cloud solution, designed for professionals on the go.</p>
-          <div class="product-features">
-            <span class="feature-tag">Mobile App</span>
-            <span class="feature-tag">Cloud Storage</span>
-            <span class="feature-tag">Synchronization</span>
-          </div>
-          <a href="#" class="btn btn-outline disabled">Stay Tuned</a>
-        </div>
-      </div>
     </div>
   </div>
 </section>
