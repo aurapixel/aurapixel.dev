@@ -1,5 +1,5 @@
-url: "https://aurapixel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/aurapixel" # the subpath of your site, e.g. /blog
+url: "https://aurapixel.dev" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 title: "AuraPixel" # the name of your site
 description: "Boost your productivity with innovative SaaS solutions"
 author: "AuraPixel Team"
