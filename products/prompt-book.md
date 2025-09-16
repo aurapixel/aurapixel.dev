@@ -303,6 +303,16 @@ description: "Store, organize, and instantly inject your best prompts into any A
   </div>
 </section>
 
+<section class="legal-links-section">
+  <div class="container">
+    <div class="legal-links">
+      <a href="{{ site.baseurl }}/products/prompt-book-privacy">Privacy Policy</a>
+      <span class="divider">|</span>
+      <a href="{{ site.baseurl }}/products/prompt-book-terms">Terms and Conditions</a>
+    </div>
+  </div>
+</section>
+
 <style>
   /* Product page specific styles */
   .product-hero-section {
@@ -622,5 +632,33 @@ description: "Store, organize, and instantly inject your best prompts into any A
     .pricing-card.featured {
       transform: scale(1);
     }
+  }
+  
+  /* Legal links styling */
+  .legal-links-section {
+    padding: 2rem 0;
+    background-color: var(--color-bg-secondary);
+    text-align: center;
+  }
+  
+  .legal-links {
+    font-size: 0.9rem;
+  }
+  
+  .legal-links a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .legal-links a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+  
+  .legal-links .divider {
+    margin: 0 0.75rem;
+    color: var(--color-text-secondary);
+    opacity: 0.5;
   }
 </style>
