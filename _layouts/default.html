@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}" data-theme="light">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="{{ "/assets/images/favicon.png" | relative_url }}" type="image/png">
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon.png" | relative_url }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ "/assets/images/favicon.png" | relative_url }}">
+    {% seo %}
+  </head>
+  <body>
+    {% include header.html %}
+    
+    <main class="site-content">
+      {{ content }}
+    </main>
+    
+    {% include footer.html %}
+    
+    <script>
+      // Theme toggle functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const themeToggleBtn = document.getElementById('theme-toggle-btn');
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        
+        // Function to set theme
+        function setTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          localStorage.setItem('theme', theme);
+        }
+        
+        // Check for saved theme preference or use OS preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+          setTheme(savedTheme);
+        } else if (prefersDarkScheme.matches) {
+          setTheme('dark');
+        } else {
+          setTheme('light');
+        }
+        
+        // Toggle theme when button is clicked
+        themeToggleBtn.addEventListener('click', function() {
+          const currentTheme = document.documentElement.getAttribute('data-theme');
+          const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+          setTheme(newTheme);
+        });
+        
+        // Mobile menu toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+        
+        mobileMenuToggle.addEventListener('click', function() {
+          mainNav.classList.toggle('active');
+          mobileMenuToggle.classList.toggle('active');
+        });
+      });
+    </script>
+  </body>
+</html>

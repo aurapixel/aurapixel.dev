@@ -1,0 +1,18 @@
+url: "https://aurapixel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/aurapixel" # the subpath of your site, e.g. /blog
+title: "AuraPixel" # the name of your site
+description: "Boost your productivity with innovative SaaS solutions"
+author: "AuraPixel Team"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme settings
+theme_mode: auto # auto, light, dark
+
+# GitHub Pages settings
+github_username: aurapixel
+repository: aurapixel/aurapixel.github.io
