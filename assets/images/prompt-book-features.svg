@@ -10,76 +10,49 @@
   <!-- Background -->
   <rect width="600" height="400" fill="#f8f9fa" rx="10" ry="10"/>
   
-  <!-- Feature Cards -->
-  <g transform="translate(50, 50)">
-    <!-- Card 1: Prompt Library -->
-    <rect x="0" y="0" width="150" height="130" rx="8" ry="8" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
-    <circle cx="30" cy="30" r="15" fill="url(#gradient)"/>
-    <path d="M25 30 L35 30 M30 25 L30 35" stroke="#ffffff" stroke-width="2"/>
-    <text x="75" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">Prompt Library</text>
-    <rect x="15" y="50" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="70" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="90" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="110" width="80" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-  </g>
+  <!-- Browser Window -->
+  <rect x="50" y="50" width="500" height="300" rx="8" ry="8" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
   
-  <g transform="translate(225, 50)">
-    <!-- Card 2: Fast Retrieval -->
-    <rect x="0" y="0" width="150" height="130" rx="8" ry="8" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
-    <circle cx="30" cy="30" r="15" fill="url(#gradient)"/>
-    <path d="M25 30 L35 30 M35 30 L32 27 M35 30 L32 33" stroke="#ffffff" stroke-width="2"/>
-    <text x="75" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">Fast Retrieval</text>
-    <rect x="15" y="50" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="70" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="90" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="110" width="80" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-  </g>
+  <!-- Browser Header -->
+  <rect x="50" y="50" width="500" height="40" rx="8" ry="8" fill="#f8f9fa" stroke="#e9ecef" stroke-width="2"/>
   
-  <g transform="translate(400, 50)">
-    <!-- Card 3: Sorting & Filtering -->
-    <rect x="0" y="0" width="150" height="130" rx="8" ry="8" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
-    <circle cx="30" cy="30" r="15" fill="url(#gradient)"/>
-    <path d="M25 25 L35 25 M25 30 L32 30 M25 35 L29 35" stroke="#ffffff" stroke-width="2"/>
-    <text x="75" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">Sorting & Filtering</text>
-    <rect x="15" y="50" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="70" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="90" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="110" width="80" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-  </g>
+  <!-- Browser Controls -->
+  <circle cx="80" cy="70" r="6" fill="#ff6b6b"/>
+  <circle cx="100" cy="70" r="6" fill="#ffd93d"/>
+  <circle cx="120" cy="70" r="6" fill="#6bff84"/>
   
-  <g transform="translate(50, 200)">
-    <!-- Card 4: Data Portability -->
-    <rect x="0" y="0" width="150" height="130" rx="8" ry="8" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
-    <circle cx="30" cy="30" r="15" fill="url(#gradient)"/>
-    <path d="M25 30 L35 30 M30 25 L30 35 M27 27 L33 33 M27 33 L33 27" stroke="#ffffff" stroke-width="1"/>
-    <text x="75" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">Data Portability</text>
-    <rect x="15" y="50" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="70" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="90" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="110" width="80" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-  </g>
+  <!-- URL Bar -->
+  <rect x="150" y="60" width="350" height="20" rx="4" ry="4" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
   
-  <g transform="translate(225, 200)">
-    <!-- Card 5: Cloud & Backup -->
-    <rect x="0" y="0" width="150" height="130" rx="8" ry="8" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
-    <circle cx="30" cy="30" r="15" fill="url(#gradient)"/>
-    <path d="M25 33 C25 28, 30 25, 35 28 C37 23, 42 23, 43 28 C48 28, 48 35, 43 35 L28 35 C25 35, 22 35, 25 33 Z" stroke="#ffffff" stroke-width="1" fill="none"/>
-    <text x="75" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">Cloud & Backup</text>
-    <rect x="15" y="50" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="70" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="90" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="110" width="80" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-  </g>
+  <!-- Prompt Book Interface -->
+  <rect x="70" y="110" width="150" height="220" rx="6" ry="6" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
   
-  <g transform="translate(400, 200)">
-    <!-- Card 6: Privacy & Security -->
-    <rect x="0" y="0" width="150" height="130" rx="8" ry="8" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
-    <circle cx="30" cy="30" r="15" fill="url(#gradient)"/>
-    <path d="M30 25 L30 35 M27 30 L33 30 M25 37 C25 37, 30 42, 35 37" stroke="#ffffff" stroke-width="1"/>
-    <text x="75" y="30" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">Privacy & Security</text>
-    <rect x="15" y="50" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="70" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="90" width="120" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-    <rect x="15" y="110" width="80" height="10" rx="2" ry="2" fill="#f8f9fa"/>
-  </g>
+  <!-- Sidebar Header -->
+  <rect x="70" y="110" width="150" height="40" rx="6" ry="6" fill="url(#gradient)"/>
+  <text x="95" y="135" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff">Prompt Book</text>
+  
+  <!-- Sidebar Items -->
+  <rect x="80" y="160" width="130" height="25" rx="4" ry="4" fill="#f8f9fa"/>
+  <rect x="80" y="195" width="130" height="25" rx="4" ry="4" fill="#f8f9fa"/>
+  <rect x="80" y="230" width="130" height="25" rx="4" ry="4" fill="#f8f9fa"/>
+  <rect x="80" y="265" width="130" height="25" rx="4" ry="4" fill="#f8f9fa"/>
+  
+  <!-- Chat Interface -->
+  <rect x="240" y="110" width="290" height="220" rx="6" ry="6" fill="#ffffff" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- Chat Header -->
+  <rect x="240" y="110" width="290" height="40" rx="6" ry="6" fill="#f8f9fa"/>
+  <text x="260" y="135" font-family="Arial" font-size="14" fill="#212529">ChatGPT</text>
+  
+  <!-- Chat Messages -->
+  <rect x="260" y="170" width="200" height="30" rx="15" ry="15" fill="#f8f9fa"/>
+  <rect x="310" y="210" width="200" height="30" rx="15" ry="15" fill="#5e72e4"/>
+  <rect x="260" y="250" width="200" height="30" rx="15" ry="15" fill="#f8f9fa"/>
+  
+  <!-- Prompt Book Button -->
+  <circle cx="260" cy="310" r="15" fill="url(#gradient)"/>
+  <text x="256" y="315" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff">P</text>
+  
+  <!-- Chat Input -->
+  <rect x="290" y="295" width="220" height="30" rx="15" ry="15" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
 </svg>

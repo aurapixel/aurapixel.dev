@@ -11,7 +11,15 @@
   .header-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+  }
+  
+  .logo {
+    margin-right: auto; /* Push logo to the left */
+  }
+  
+  .header-nav-container {
+    display: flex;
+    align-items: center;
   }
   
   .logo {
@@ -153,42 +161,42 @@
   }
   
   .theme-toggle {
-    margin-left: 1rem;
+    margin-left: 2rem;
     
     button {
       background: none;
       border: none;
-      cursor: pointer;
       color: var(--color-text-secondary);
+      cursor: pointer;
       padding: 0.5rem;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: background-color 0.3s ease, color 0.3s ease;
+      transition: all 0.3s ease;
       
       &:hover {
-        background-color: var(--color-bg-secondary);
         color: var(--color-primary);
+        background-color: var(--color-bg-secondary);
       }
-    }
-    
-    .theme-toggle-dark {
-      display: none;
-    }
-    
-    .theme-toggle-light {
-      display: block;
-    }
-  }
-  
-  [data-theme="dark"] & {
-    .theme-toggle-dark {
-      display: block;
-    }
-    
-    .theme-toggle-light {
-      display: none;
+      
+      .theme-toggle-light {
+        display: none;
+      }
+      
+      .theme-toggle-dark {
+        display: block;
+      }
+      
+      .dark & {
+        .theme-toggle-light {
+          display: block;
+        }
+        
+        .theme-toggle-dark {
+          display: none;
+        }
+      }
     }
   }
   

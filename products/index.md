@@ -20,7 +20,7 @@ description: "Explore AuraPixel's suite of innovative SaaS tools, extensions, an
         </div>
         <div class="product-content">
           <h2>Prompt Book</h2>
-          <p class="product-tagline">Your AI Prompt Command Center</p>
+          <p class="product-tagline">Your magical companion for managing AI prompts</p>
           <p>A privacy-first browser extension designed to help you store, organize, and instantly inject your best prompts into any AI chatbot.</p>
           <div class="product-features">
             <span class="feature-tag">Browser Extension</span>
