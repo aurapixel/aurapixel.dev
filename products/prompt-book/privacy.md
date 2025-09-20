@@ -7,6 +7,7 @@ description: "Privacy policy for the Prompt Book browser extension."
 <main>
     <div class="privacy-header">
         <h1>Privacy Policy</h1>
+        <h2 class="product-subtitle">Prompt Book</h2>
         <p class="subtitle">Last updated: September 16, 2025</p>
     </div>
     
@@ -94,6 +95,13 @@ description: "Privacy policy for the Prompt Book browser extension."
     
     .privacy-header h1 {
         margin-bottom: 0.5rem;
+    }
+    
+    .product-subtitle {
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+        color: rgba(255, 255, 255, 0.9);
     }
     
     .subtitle {
