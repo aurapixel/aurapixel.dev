@@ -31,6 +31,9 @@ description: "Store, organize, and instantly inject your best prompts into any A
             <strong>Prompt Library:</strong> Add, edit, and delete prompts with titles and full content. Organize with folders. Tracks usage per prompt.
           </li>
           <li>
+            <strong>Variable Substitution:</strong> Use placeholders in your prompts that get replaced with context-specific values when injected into chat inputs.
+          </li>
+          <li>
             <strong>Lightning-Fast Retrieval:</strong> Smart search across titles and content. One-click injection into chat inputs. A floating icon overlay appears on supported sites.
           </li>
           <li>
