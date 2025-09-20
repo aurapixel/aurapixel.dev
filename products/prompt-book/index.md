@@ -157,9 +157,9 @@ description: "Store, organize, and instantly inject your best prompts into any A
 <section class="legal-links-section">
   <div class="container">
     <div class="legal-links">
-      <a href="{{ site.baseurl }}/products/prompt-book-privacy">Privacy Policy</a>
+      <a href="/products/prompt-book/privacy">Privacy Policy</a>
       <span class="divider">|</span>
-      <a href="{{ site.baseurl }}/products/prompt-book-terms">Terms and Conditions</a>
+      <a href="/products/prompt-book/terms">Terms and Conditions</a>
     </div>
   </div>
 </section>
