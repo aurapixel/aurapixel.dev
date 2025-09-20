@@ -14,7 +14,7 @@ description: "Terms and conditions for the Prompt Book browser extension."
     <div class="privacy-container">
         <div class="privacy-section">
             <h2>1. Acceptance of Terms</h2>
-            <p>By accessing and using the Prompt Book browser extension ("the Service"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, you may not use the Service.</p>
+            <p>By using the Prompt Book browser extension (the "Service"), you agree to these Terms and Conditions ("Terms"). If you don't agree to these Terms, you are not allowed to use the Service.</p>
         </div>
 
         <div class="privacy-section">
@@ -28,54 +28,41 @@ description: "Terms and conditions for the Prompt Book browser extension."
         </div>
 
         <div class="privacy-section">
-            <h2>4. Intellectual Property</h2>
-            <p>The Service and its original content, features, and functionality are and will remain the exclusive property of AuraPixel and its licensors. The Service is protected by copyright, trademark, and other laws of both the United States and foreign countries.</p>
-        </div>
-
-        <div class="privacy-section">
-            <h2>5. Disclaimer of Warranty</h2>
+            <h2>4. Disclaimer of Warranty</h2>
             <p>The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance.</p>
         </div>
 
         <div class="privacy-section">
-            <h2>6. Limitation of Liability</h2>
-            <p>In no event shall AuraPixel, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the Service.</p>
+            <h2>5. Limitation of Liability</h2>
+            <p>To the fullest extent permitted by law, AuraPixel and its team will not be liable for any indirect, incidental, or consequential damages, including loss of profits, data, or other intangible losses, that arise from your use of, or inability to use, the Service. This is true even if AuraPixel has been advised of the possibility of such damages.</p>
         </div>
 
         <div class="privacy-section">
-            <h2>7. Refund Policy</h2>
-            <p>We want you to be completely satisfied with your purchase of Prompt Book. If you are not satisfied with the Service, you may be eligible for a refund as described below.</p>
+            <h2>6. Refund Policy</h2>
+            <p>AuraPixel is committed to ensuring your satisfaction with your purchase of Prompt Book. As a consumer, you have specific rights under the law, and we want to make sure you are aware of them.</p>
             
-            <h3>7.1 Refund Eligibility</h3>
-            <p>Refund requests must be made within 14 days of your initial purchase. To be eligible for a refund, you must demonstrate that the Service does not function as described in the product documentation.</p>
+            <h3>6.1 Your Right to a Refund</h3>
+            <p>As a consumer, you have the right to request a refund within 14 days of your purchase if Prompt Book does not function as described in our product documentation. This right is in addition to any other rights you may have under applicable consumer protection laws.</p>
             
-            <h3>7.2 Refund Process</h3>
-            <p>To request a refund, please contact our support team at <a href="mailto:support@aurapixel.dev">support@aurapixel.dev</a> with your purchase details and reason for the refund request. We will review your request and respond within 5 business days.</p>
+            <h3>6.2 How to Request a Refund</h3>
+            <p>To request a refund, please contact our support team at <a href="mailto:support@aurapixel.dev">support@aurapixel.dev</a> with your purchase details and the reason for your request. We are committed to processing your request promptly and fairly.</p>
             
-            <h3>7.3 Refund Exceptions</h3>
-            <p>Refunds will not be provided in the following cases:</p>
+            <h3>6.3 Exceptions to Refunds</h3>
+            <p>While we strive to accommodate all refund requests, please note that refunds will not be provided in the following circumstances:</p>
             <ul>
-                <li>If the refund request is made after 14 days from the date of purchase</li>
-                <li>If the Service functions as described but does not meet your specific needs or expectations</li>
-                <li>If you have violated these Terms and Conditions</li>
+                <li>If the request is made after 14 days from the date of purchase.</li>
+                <li>If Prompt Book functions as described but does not meet your specific needs or expectations.</li>
+                <li>If there is a violation of these Terms and Conditions.</li>
             </ul>
             
-            <h3>7.4 Processing Time</h3>
-            <p>Approved refunds will be processed within 7-10 business days. The time it takes for the refund to appear in your account may vary depending on your payment method and financial institution.</p>
+            <h3>6.4 Processing Time</h3>
+            <p>Once approved, refunds will be processed within 7-10 business days. The time it takes for the refund to appear in your account may vary depending on your payment method and financial institution.</p>
+            <p>Your satisfaction is our priority, and we are here to assist you with any concerns you may have regarding your purchase of Prompt Book.</p>
         </div>
 
         <div class="privacy-section">
-            <h2>8. Governing Law</h2>
-            <p>These Terms shall be governed and construed in accordance with the laws of the State of California, United States, without regard to its conflict of law provisions.</p>
-        </div>
-
-        <div class="privacy-section">
-            <h2>9. Changes to Terms</h2>
+            <h2>7. Changes to Terms</h2>
             <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will provide notice of any changes by posting the new Terms and Conditions on this page.</p>
-        </div>
-
-        <div class="last-updated">
-            <p>Last updated: September 16, 2025</p>
         </div>
     </div>
 </main>

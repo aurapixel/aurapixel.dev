@@ -29,9 +29,19 @@ description: "Privacy policy for the Prompt Book browser extension."
         <div class="privacy-section">
             <h2>What We Store</h2>
             <ul>
-                <li>The extension stores your prompts, folders/tags, and preferences in <code>chrome.storage</code> (local or sync, depending on your browser settings).</li>
-                <li>This data stays in your browser profile (and may sync across your signed-in devices if you enable browser sync).</li>
-                <li>You can export/import your data and delete it at any time via the extension UI or your browser's extension data controls.</li>
+                <li>The extension stores your prompts, folders, and preferences (such as sort order and usage frequency) in your browser's local storage (<code>chrome.storage</code>).</li>
+                <li>This data remains in your browser profile and is subject to your browser's sync settings (if you enable them).</li>
+                <li>You can export, import, or delete your data at any time through the extension's settings.</li>
+            </ul>
+        </div>
+
+        <div class="privacy-section">
+            <h2>Optional Cloud Backup</h2>
+            <p>For premium users, we offer an optional feature to back up and restore your prompt library to your personal Google Drive. This process is designed to be completely secure and private:</p>
+            <ul>
+                <li><strong>User-Initiated:</strong> Backups are only created when you explicitly choose to do so.</li>
+                <li><strong>Your Control:</strong> The backup file is stored in your own Google Drive account, which we cannot access.</li>
+                <li><strong>Secure Authentication:</strong> We use Google's secure authentication (OAuth) to grant the extension temporary permission to save the backup file. We never see or store your Google account credentials.</li>
             </ul>
         </div>
         
@@ -48,7 +58,10 @@ description: "Privacy policy for the Prompt Book browser extension."
             <h2>Permissions and Why They're Needed</h2>
             
             <h3>storage</h3>
-            <p>To save your prompts, folders/tags, and settings so they persist across sessions. No personal data is uploaded.</p>
+            <p>To save your prompts, folders, and settings so they persist across sessions.</p>
+
+            <h3>identity</h3>
+            <p>To securely connect to your Google account for the optional backup feature, without us ever seeing your password.</p>
             
             <h3>contextMenus</h3>
             <p>To provide optional right-click actions that you can explicitly invoke.</p>
@@ -77,10 +90,7 @@ description: "Privacy policy for the Prompt Book browser extension."
             <h2>Changes to This Policy</h2>
             <p>We may update this policy from time to time. Material changes will be reflected in the extension's release notes and/or store listing with an updated effective date.</p>
         </div>
-        
-        <div class="last-updated">
-            <p>Last updated: September 16, 2025</p>
-        </div>
+
     </div>
 </main>
 
