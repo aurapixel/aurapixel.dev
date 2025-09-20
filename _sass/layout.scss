@@ -545,10 +545,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 1rem;
       
-      img {
+      .product-feature-image {
         max-width: 100%;
         max-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+      }
+      
+      svg {
+        width: 64px;
+        height: 64px;
+        color: var(--color-primary);
       }
     }
     

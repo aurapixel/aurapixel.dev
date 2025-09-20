@@ -7,7 +7,7 @@ description: "Store, organize, and instantly inject your best prompts into any A
 <section class="product-hero-section">
   <div class="container">
     <div class="product-hero-content">
-      <h1>Prompt Book</h1>
+      <h1 style="display: flex; align-items: center; gap: 0.75rem;"><img src="{{ site.baseurl }}/assets/images/magic-book-1024-transparent.png" alt="Prompt Book Icon" style="height: 3.5rem; width: auto;">Prompt Book</h1>
       <p class="product-tagline">Your magical companion for managing AI prompts</p>
       <p class="product-description">A privacy-first Chrome extension that helps content creators, developers, and AI enthusiasts effortlessly organize their best AI prompts. Store and instantly inject your favorite prompts into any AI chatbot like ChatGPT Gemini and more, ensuring speed and consistency across all your devices.</p>
       <div class="product-cta">
